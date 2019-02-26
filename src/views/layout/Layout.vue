@@ -4,6 +4,8 @@
     <div id="main">
       <carousel/>
       <panel/>
+      <hotShaop/>
+      <shopList />
     </div>
   </div>
 </template>
@@ -12,12 +14,15 @@
 import Navbar from '@/views/components/Navbar'
 import Carousel from '@/views/components/Carousel'
 import Panel from '@/views/components/Panel'
-
+import HotShaop from '@/views/components/HotShop'
+import ShopList from '@/views/components/ShopList'
 export default {
   components: {
     Navbar,
     Carousel,
-    Panel
+    Panel,
+    HotShaop,
+    ShopList
   },
   computed: {
     sidebar() {
