@@ -1,8 +1,8 @@
 <template>
   <div class="layout">
-    <navbar/>
+    <headerBox/>
     <div id="main">
-      <carousel/>
+      <bannel/>
       <panel/>
       <hotShaop/>
       <shopList />
@@ -12,7 +12,9 @@
 
 <script>
 import Navbar from '@/views/components/Navbar'
+import HeaderBox from '@/views/components/HeaderBox'
 import Carousel from '@/views/components/Carousel'
+import Bannel from '@/views/components/Bannel'
 import Panel from '@/views/components/Panel'
 import HotShaop from '@/views/components/HotShop'
 import ShopList from '@/views/components/ShopList'
@@ -22,7 +24,9 @@ export default {
     Carousel,
     Panel,
     HotShaop,
-    ShopList
+    ShopList,
+    HeaderBox,
+    Bannel
   },
   computed: {
     sidebar() {

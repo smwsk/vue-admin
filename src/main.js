@@ -8,6 +8,7 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import enLocale from 'element-ui/lib/locale/lang/en'
 import zhLocale from 'element-ui/lib/locale/lang/zh-CN'
+import './styles/app.scss'
 
 Vue.config.productionTip = false
 Vue.use(ElementUI, { enLocale, zhLocale })

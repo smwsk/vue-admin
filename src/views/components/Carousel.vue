@@ -1,8 +1,8 @@
 <template>
   <div class="carousel">
-    <el-carousel height="32rem" indicator-position="none" autoplay="false" class="home-box">
+    <el-carousel height="32rem" indicator-position="none" class="home-box">
       <el-carousel-item v-for="item in imgList" :key="item.name">
-        <img :src = "item.url" />
+        <img :src = "item.url"/>
       </el-carousel-item>
     </el-carousel>
   </div>

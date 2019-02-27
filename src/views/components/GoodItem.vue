@@ -3,7 +3,7 @@
     <div>
       <div class="good-img">
         <a>
-          <img :src="goodItem.goodImg" alt="goodItem.title" />
+          <img :src="goodItem.goodImg" alt="goodItem.title"/>
         </a>
       </div>
       <h6 class="good-title">{{ goodItem.title }}</h6>
