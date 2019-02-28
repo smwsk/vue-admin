@@ -7,6 +7,7 @@
       <hotShaop/>
       <shopList />
     </div>
+    <y-footer/>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import Bannel from '@/views/components/Bannel'
 import Panel from '@/views/components/Panel'
 import HotShaop from '@/views/components/HotShop'
 import ShopList from '@/views/components/ShopList'
+import YFooter from '@/components/common/footer'
 export default {
   components: {
     Navbar,
@@ -26,7 +28,8 @@ export default {
     HotShaop,
     ShopList,
     HeaderBox,
-    Bannel
+    Bannel,
+    YFooter
   },
   computed: {
     sidebar() {

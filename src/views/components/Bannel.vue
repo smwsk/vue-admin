@@ -18,8 +18,8 @@
             @mouseover="stopTimer"
             @mouseout="startTimer">
             <img v-if="item.picUrl" :src="item.picUrl" class="img1"/>
-            <img v-if="item.picUrl" :src="item.picUrl" class="img2 a"/>
-            <img v-if="item.picUrl" :src="item.picUrl" class="img3 b"/>
+            <img v-if="item.picUrl2" :src="item.picUrl2" class="img2 a"/>
+            <img v-if="item.picUrl3" :src="item.picUrl3" class="img3 b"/>
           </div>
         </transition>
       </div>
@@ -58,11 +58,11 @@ export default {
       },
       {
         name: '图片2',
-        picUrl: 'https://i.loli.net/2018/11/04/5bdebb109a29a.png'
+        picUrl2: 'https://i.loli.net/2018/11/04/5bdebb109a29a.png'
       },
       {
         name: '图片3',
-        picUrl: 'https://i.loli.net/2018/11/04/5bdebb41e11f4.png'
+        picUrl3: 'https://i.loli.net/2018/11/04/5bdebb41e11f4.png'
       }]
     }
   },
