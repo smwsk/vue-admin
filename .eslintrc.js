@@ -20,7 +20,7 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    "vue/html-self-closing": ["error", {
+    "vue/html-self-closing": [0, {
       "html": {
         "void": "always",
         "normal": "never",
@@ -32,6 +32,20 @@ module.exports = {
     "vue/attribute-hyphenation": ["always" | "never", {
       "ignore": []
     }],
+    "vue/attributes-order": ["off", {
+      "order": [
+        "DEFINITION",
+        "LIST_RENDERING",
+        "CONDITIONALS",
+        "RENDER_MODIFIERS",
+        "GLOBAL",
+        "UNIQUE",
+        "TWO_WAY_BINDING",
+        "OTHER_DIRECTIVES",
+        "OTHER_ATTR",
+        "EVENTS",
+        "CONTENT"
+    ]}],
     "vue/max-attributes-per-line": [2, {
       "singleline": 10,
       "multiline": {
@@ -177,7 +191,7 @@ module.exports = {
       }
     }],
     'padded-blocks': [2, 'never'],
-    'quotes': [2, 'single', {
+    'quotes': [0, 'single', {
       'avoidEscape': true,
       'allowTemplateLiterals': true
     }],

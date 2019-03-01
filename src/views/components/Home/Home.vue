@@ -1,31 +1,24 @@
 <template>
   <div class="layout">
-    <headerBox/>
     <div id="main">
       <bannel/>
       <panel/>
-      <hotShaop/>
+      <goodHot/>
       <shopList />
     </div>
   </div>
 </template>
 
 <script>
-import Navbar from '@/views/components/Navbar'
-import HeaderBox from '@/views/components/HeaderBox'
-import Carousel from '@/views/components/Carousel'
-import Bannel from '@/views/components/Bannel'
-import Panel from '@/views/components/Panel'
-import HotShaop from '@/views/components/HotShop'
-import ShopList from '@/views/components/ShopList'
+import Bannel from '@/views/components/Bannel/Bannel'
+import Panel from '@/views/components/Good/GoodPanel'
+import GoodHot from '@/views/components/Good/GoodHot'
+import GoodList from '@/views/components/Good/GoodList'
 export default {
   components: {
-    Navbar,
-    Carousel,
     Panel,
-    HotShaop,
-    ShopList,
-    HeaderBox,
+    GoodHot,
+    GoodList,
     Bannel
   },
   computed: {

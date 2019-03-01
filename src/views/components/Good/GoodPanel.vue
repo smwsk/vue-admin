@@ -1,3 +1,4 @@
+// 4块图片列表
 <template>
   <div id="panel">
     <ul class="box">

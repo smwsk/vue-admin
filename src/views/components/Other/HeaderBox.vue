@@ -71,7 +71,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../../assets/style/theme";
-@import "../../assets/style/mixin";
-@import "../../styles/header.scss";
+@import "../../../assets/style/theme";
+@import "../../../assets/style/mixin";
+@import "../../../styles/header.scss";
 </style>

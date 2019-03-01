@@ -7,7 +7,7 @@
         </div>
         <div>
           <div class="floors">
-            <imgBanner :imgUrl="imgBannerUrl"/>
+            <goodSingle :imgUrl="imgBannerUrl"/>
             <goodItem v-for="item in goodList" :key="item.id" :goodItem="item"/>
           </div>
         </div>
@@ -17,13 +17,13 @@
 </template>
 
 <script>
-import ImgBanner from "@/views/components/ImgBanner"
-import GoodItem from "@/views/components/GoodItem"
+import GoodSingle from "@/views/components/Good/GoodSingle"
+import GoodItem from "@/views/components/Good/GoodItem"
 import YShelf from "@/components/shelf"
 export default {
   components: {
     GoodItem,
-    ImgBanner,
+    GoodSingle,
     YShelf
   },
   data() {
